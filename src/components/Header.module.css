@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.08);
+  height: "50px";
+}
+
+.link {
+  color: #ff5921;
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.img {
+  height: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .img {
+    height: 40px;
+  }
+}

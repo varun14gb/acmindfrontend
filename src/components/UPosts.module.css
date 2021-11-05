@@ -1,0 +1,17 @@
+.main {
+  position: fixed;
+  padding: 24px;
+  top: 98px;
+  height: calc(100vh - 98px);
+  width: calc(85% - 96px);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 90%;
+    padding: 20px;
+  }
+}
